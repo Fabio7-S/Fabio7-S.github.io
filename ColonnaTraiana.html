@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>La Roma Imperiale</title>
+    <link rel="stylesheet" href="stile.css">
+    <script type="text/javascript" id="cookiebanner" src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
+</head>
+
+<body>
+
+
+    <div id="titolo">
+        <h1 style="background-color: #b00f0f;text-align: center;padding: 25px;color: white;font-family: Georgia, serif;text-decoration: underline;">La Colonna Traiana</h1>
+    </div>
+
+    <div id="menu">
+
+        <h2 style="color: #6c0707;">Selezionare il monumento da approfondire per essere reindirizzati alla pagina</h2>
+        <a href="index.html">Home</a>
+
+        <a href="Colosseo.html">Colosseo</a>
+
+        <a href="ColonnaTraiana.html">Colonna Traiana</a>
+
+        <a href="ArcodiCostantino.html">Arco di Costantino</a>
+
+    </div>
+
+    <div id="descrizione">
+        <p>
+        La Colonna Traiana è un monumento innalzato a Roma nel 113 d.C. per celebrare la conquista romana della Dacia da parte dell'imperatore Traiano.
+
+        I momenti salienti della guerra sono rievocati nella sua decorazione scultorea.
+
+        Fu un'opera di grande importanza nell'arte antica e divenne uno degli esempi più importanti del rilievo storico romano. Per la prima volta nell'arte romana si assiste a un'espressione artistica autonoma in ogni suo aspetto.
+        La colonna è cava al suo interno, dove ospita una scala a chiocciola che permette di salire fino alla sommità della colonna. La funzione della scala era quella di permettere di raggiungere la sommità e ammirare il panorama circostante.
+        </p>
+
+    </div>
+
+    <div id="immagini">
+
+        <img src="https://cdn.pixabay.com/photo/2017/05/28/10/28/rome-2350674_1280.jpg" alt="La colonna Traiana">
+
+        <img src="Immagini/mariananistor35-column-7395970_1280.jpg" alt="Zoom sulla colonna">
+    
+    </div>
+    
+        <div id="pulsante">
+    <button onclick="mostraTesto()">
+        Mostra o Nascondi la curiosità!
+    </button>
+    </div>
+
+    <div id="testoSegreto" style="display: none; text-align: center; margin: 20px; font-size: 18px;">
+        <h2>Lo sapevi?</h2>
+        <p>
+            SPQR è l'acronimo di "Senatus PopulusQue Romanus", che significa "Il Senato e il Popolo Romano". Questa sigla rappresenta l'unione tra il Senato e il popolo nella storia dell'antica Roma.
+        </p>
+    </div>
+
+    <script>
+        function mostraTesto() {
+            let testo = document.getElementById("testoSegreto");
+            if (testo.style.display == "none") {
+                testo.style.display = "block";
+            }
+            else {
+                testo.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
