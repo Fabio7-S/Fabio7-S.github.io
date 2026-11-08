@@ -1,2 +1,2 @@
 # Fabio7-S.github.io
-Sito per l'esame di Reti di Calcolatori
+Sito di Fabio Scarel per l'esame di Reti di Calcolatori
